@@ -73,7 +73,7 @@ It makes no sense to use the Upload as the board does not yet have WiFi connecti
 
 ### 2. compile / create firmware.bin
          
-The firmware must be created without trying to upload it: choose **"Compile"** from the three dot menu of the board's box in the dashboard. In this action the C++ code is composed and saved in the /config folder. The compiled firmware is also stored in this [folder](). 
+The firmware must be created without trying to upload it: choose **"Compile"** from the three dot menu of the board's box in the dashboard. In this action the C++ code is composed and saved in the /config folder. The compiled firmware is also stored in this [folder](https://github.com/goofy2k/ESPhome_codes/blob/main/media/esphome_files.jpg). 
          
 ### 3. download firmware.bin to PC
          
