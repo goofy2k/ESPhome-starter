@@ -65,6 +65,7 @@ WiFi & Updates: WiFi credentials, OTA password
 Submit
          
 After these steps a file **joyit_nodemcu_esp32_ex.yaml** has been created in the /config folder with the following contents:
+         
     code block
 esphome:
   name: joyit_nodemcu_esp32_ex
