@@ -139,6 +139,12 @@ Implement...  >> new yaml
          static IP adress
          https://esphome.io/components/wifi.html#manual-ips
          
+         OK
+         Now upload (OTA) firmware with wrong wifi credentials...
+         
+         captive portal
+         https://esphome.io/components/captive_portal.html
+         http://192.168.4.1/
 ### Remarks:         
 
 The source codes (in this case yaml files!) are saved in the /config folder and have the device/application name (appname.yaml). The output (C++ code, compiled firmware(?)) are stored in a separate folder per app:  /config/appname.  Other resources must be stored in .....          
