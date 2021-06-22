@@ -142,6 +142,8 @@ Implement...  >> new yaml
          OK
          Now upload (OTA) firmware with wrong wifi credentials...
          
+         A AP appears: ESP_36BF6D  but with a different name than the configured one.  After some time (minutes) the configured one appears. Connection to it is not possibel
+         
          captive portal
          https://esphome.io/components/captive_portal.html
          http://192.168.4.1/
