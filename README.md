@@ -27,7 +27,7 @@ Documentation for this board can be found here: https://joy-it.net/files/files/P
 
 ![alt text](https://github.com/goofy2k/ESPhome_codes/blob/main/media/SBC-NodeMCU-ESP32-02_cropped.png "SBC-NodeMCU-ESP32 (Joy-it)")
 
-         This is a very affordable ESP32 board. It has one huge disadvantage if you want to use it for experimenting with connection of other hardware to it's pins:  the board does NOT fit on normal breadboards. The distance between the two pin rows does not fit with the breadboard spacing. There are solutions available for this on the web, but it takes some cutting...
+This is a very affordable ESP32 board. It has one huge disadvantage if you want to use it for experimenting with connection of other hardware to it's pins:  the board does NOT fit on normal breadboards. The distance between the two pin rows does not fit with the breadboard spacing. There are solutions available for this on the web, but it takes some cutting...
          
 ![alt text](https://github.com/goofy2k/ESPhome_codes/blob/main/media/separated_breadboard_cropped.jpg "separated breadboard")
 
