@@ -1,0 +1,32 @@
+esphome:
+  name: joyit_nodemcu_esp32_ex
+  platform: ESP32
+  board: esp-wrover-kit
+
+wifi:
+  ssid: "Verhoeckx_glas"
+  password: "Goofy2kmacho_99"
+  manual_ip:
+    # Set this to the IP of the ESP
+    static_ip: 10.0.0.42
+    # Set this to the IP address of the router. Often ends with .1
+    gateway: 10.0.0.1
+    # The subnet of the network. 255.255.255.0 works for most home networks.
+    subnet: 255.255.255.0  
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Joyit Nodemcu Esp32 Ex"
+    password: "PPzHIfjNV92T"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: "OTAmacho_99"
+
+ota:
+  password: "OTAmacho_99"
