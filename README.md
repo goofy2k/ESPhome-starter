@@ -63,9 +63,10 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 
 1. Put secrets (credentials, host IP's etc) in a separate file and do not publish those. Test Secrets Editor.
 2. Find a solution for keeping WIFI credentials after a firmware update
-3. Investigate "Update All)
-4. Investigate "Clean MQTT") 
-5. Investigate "Clean Build")          
+3. Investigate "Update All"
+4. Investigate "Clean MQTT" 
+5. Investigate "Clean Build"
+6. Discuss (high level) integration in Home Assistant         
          
 
 ## 4. References / Further reading
