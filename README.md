@@ -64,7 +64,7 @@ Select device type: Generic ESP32 (WROVER Module)
 WiFi & Updates: WiFi credentials, OTA password
 Submit
          
-After these steps a file **joyit_nodemcu_esp32_ex.yaml** has been created in the /config folder with the following contents:
+After these steps a file **joyit_nodemcu_esp32_ex.yaml** has been created in the /config folder. You can view it's contents here. [here](http://github.com)
          
 code block
 esphome:
