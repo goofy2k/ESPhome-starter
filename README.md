@@ -117,6 +117,10 @@ The firmware must be created without trying to upload it:
          
          flasher_output.log 
          
+         test fallback hotspot:
+         flash with wrong WIFI credentials
+         
+         static IP adress
          https://esphome.io/components/wifi.html#manual-ips
          
 ### Remarks:         
