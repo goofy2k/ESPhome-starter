@@ -52,9 +52,9 @@ After completion of the basic firmware example, the board will be able to:
 7. reboot and check logs (ESP log over WIFI)         
 8. make some firmware changes in yaml file
 9. compile and upload (OTA)
-10. inspect logs  
+10. inspect logs
          
-###1. create yaml file with basic functionality
+ 1. create yaml file with basic functionality
          
 Open ESPHome dashboard in browser
 Create new node (+ button) 
