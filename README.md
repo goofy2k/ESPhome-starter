@@ -66,7 +66,7 @@ Submit
          
 After these steps a file **joyit_nodemcu_esp32_ex.yaml** has been created in the /config folder with the following contents:
 
-'''         
+        
 esphome:
   name: joyit_nodemcu_esp32_ex
   platform: ESP32
@@ -92,7 +92,7 @@ api:
 
 ota:
   password: "OTAmacho_99"      
-'''
+
          
 The file can be viewed and edited under the Edit button    maybe you have to note the auto-generated password for the AP mode?????     
 The credentials for the fallback hotspot (AP) have been automatically generated.          
