@@ -1,0 +1,74 @@
+Using 'COM4' as serial port.
+)Writing at 0x00084000... (100 %)Wrote 872336 bytes (487110 compressed) at 0x00010000 in 11.5 seconds (effective 606.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard Resetting...
+Done! Flashing is complete!
+
+Showing logs:
+[15:02:02][I][logger:170]: Log initialized
+[15:02:02][C][ota:366]: There have been 0 suspected unsuccessful boot attempts.
+[15:02:02][I][app:029]: Running through setup()...
+[15:02:02][C][wifi:033]: Setting up WiFi...
+[15:02:03][D][wifi:324]: Starting scan...
+[15:02:04][D][wifi:339]: Found networks:
+[15:02:04][I][wifi:385]: - 'Verhoeckx_glas' (96:6A:B0:C3:3B:27) ▂▄▆█
+[15:02:05][D][wifi:386]:     Channel: 8
+[15:02:05][D][wifi:387]:     RSSI: -56 dB
+[15:02:05][I][wifi:385]: - 'Verhoeckx_glas' (80:3F:5D:84:C2:9C) ▂▄▆█
+[15:02:05][D][wifi:386]:     Channel: 2
+[15:02:05][D][wifi:387]:     RSSI: -77 dB
+[15:02:05][I][wifi:385]: - 'Verhoeckx_glas' (96:6A:B0:C3:0D:1F) ▂▄▆█
+[15:02:05][D][wifi:386]:     Channel: 8
+[15:02:05][D][wifi:387]:     RSSI: -82 dB
+[15:02:05][D][wifi:389]: - 'Post-Huis' (D8:07:B6:86:A5:26) ▂▄▆█
+[15:02:05][D][wifi:389]: - '' (DE:07:B6:86:A5:26) ▂▄▆█
+[15:02:05][D][wifi:389]: - 'ZiggoPost' (90:00:4E:87:A7:5D) ▂▄▆█
+[15:02:05][D][wifi:389]: - 'Ziggo' (92:00:4E:87:A7:5E) ▂▄▆█
+[15:02:05][D][wifi:389]: - 'ESP_36BF6D' (AC:67:B2:36:BF:6D) ▂▄▆█
+[15:02:05][D][wifi:389]: - '' (DE:07:B6:86:E5:56) ▂▄▆█
+[15:02:05][D][wifi:389]: - 'Post-Huis' (D8:07:B6:86:E5:56) ▂▄▆█
+[15:02:05][I][wifi:194]: WiFi Connecting to 'Verhoeckx_glas'...
+[15:02:09][W][wifi_esp32:409]: Event: Disconnected ssid='Verhoeckx_glas' bssid=96:6A:B0:C3:3B:27 reason='4-Way Handshake Timeout'
+[15:02:35][W][wifi:479]: Timeout while connecting to WiFi.
+[15:02:35][I][wifi:194]: WiFi Connecting to 'Verhoeckx_glas'...
+[15:02:35][I][wifi:457]: WiFi Connected!
+[15:02:35][C][wifi:303]:   SSID: 'Verhoeckx_glas'
+[15:02:36][C][wifi:304]:   IP Address: 192.168.2.14
+[15:02:36][C][wifi:306]:   BSSID: 96:6A:B0:C3:3B:27
+[15:02:36][C][wifi:307]:   Hostname: 'joyit_nodemcu_esp32_ex'
+[15:02:36][C][wifi:311]:   Signal strength: -54 dB ▂▄▆█
+[15:02:36][C][wifi:315]:   Channel: 8
+[15:02:36][C][wifi:316]:   Subnet: 255.255.255.0
+[15:02:36][C][wifi:317]:   Gateway: 192.168.2.254
+[15:02:36][C][wifi:318]:   DNS1: 192.168.2.254
+[15:02:36][C][wifi:319]:   DNS2: 0.0.0.0
+[15:02:36][D][wifi:466]: Disabling AP...
+[15:02:36][C][ota:029]: Over-The-Air Updates:
+[15:02:36][C][ota:030]:   Address: joyit_nodemcu_esp32_ex.local:3232
+[15:02:36][C][ota:032]:   Using Password.
+[15:02:36][C][api:022]: Setting up Home Assistant API server...
+[15:02:36][I][app:059]: setup() finished successfully!
+[15:02:36][I][app:105]: ESPHome version 1.18.0 compiled on Jun 22 2021, 14:31:38
+[15:02:36][C][wifi:443]: WiFi:
+[15:02:36][C][wifi:303]:   SSID: 'Verhoeckx_glas'
+[15:02:36][C][wifi:304]:   IP Address: 192.168.2.14
+[15:02:36][C][wifi:306]:   BSSID: 96:6A:B0:C3:3B:27
+[15:02:36][C][wifi:307]:   Hostname: 'joyit_nodemcu_esp32_ex'
+[15:02:36][C][wifi:311]:   Signal strength: -54 dB ▂▄▆█
+[15:02:36][C][wifi:315]:   Channel: 8
+[15:02:36][C][wifi:316]:   Subnet: 255.255.255.0
+[15:02:36][C][wifi:317]:   Gateway: 192.168.2.254
+[15:02:36][C][wifi:318]:   DNS1: 192.168.2.254
+[15:02:36][C][wifi:319]:   DNS2: 0.0.0.0
+[15:02:36][C][logger:189]: Logger:
+[15:02:36][C][logger:190]:   Level: DEBUG
+[15:02:36][C][logger:191]:   Log Baud Rate: 115200
+[15:02:36][C][logger:192]:   Hardware UART: UART0
+[15:02:36][C][captive_portal:169]: Captive Portal:
+[15:02:36][C][ota:029]: Over-The-Air Updates:
+[15:02:36][C][ota:030]:   Address: joyit_nodemcu_esp32_ex.local:3232
+[15:02:36][C][ota:032]:   Using Password.
+[15:02:36][C][api:095]: API Server:
+[15:02:36][C][api:096]:   Address: joyit_nodemcu_esp32_ex.local:6053
