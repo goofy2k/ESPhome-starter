@@ -17,7 +17,7 @@ Normally the firmware (a binary file) is obtained writing C++ code or C++ - like
 
 
 ## 2. Basic example
-Assumptions:  you have an ESPHome server up and running.
+**Assumption:**  you have an ESPHome server up and running and have access to the dashboard.
 
 
 I have a server running under Docker on my Synology NAS. I can access the ESPHome dashboard in my browser with http://<NAS-IP>:6052, which uses the default port number. The docker container uses an external bound volume, which means that contents of the /config folder of the application is directly accessible for me on the storage volume of the NAS.
@@ -39,6 +39,8 @@ After completion of the basic firmware example, the board will be able to:
          - connect to an available WIFI network
          - receive OTA firmware updates
          - go to AP mode and accept edited WIFI creedentials in case connection fails
+         
+Next steps:         
 
 
 ## 3. TODO
