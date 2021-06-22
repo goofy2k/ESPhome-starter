@@ -73,16 +73,13 @@ It makes no sense to use the Upload as the board does not yet have WiFi connecti
 
 ### 2. compile / create firmware.bin
          
-The firmware must be created without trying to upload it: choose **"Compile"** from the three dot menu of the board's box in the dashboard
+The firmware must be created without trying to upload it: choose **"Compile"** from the three dot menu of the board's box in the dashboard. In this action the C++ code is composed and saved in the /config folder. The compiled firmware is also stored in this [folder](). 
          
 ### 3. download firmware.bin to PC
          
-I have to download the file:  "DOWNLOAD BINARY" and "CLOSE" the window and 
-        
-filename ..... joyit_nodemcu_esp32_ex.bin in your downloads folder 
-it is also available in the output in the /config folder    .....   as firmware.bin .....
+With **"DOWNLOAD BINARY"** the firmware is downloaded to your PC. Close the window (**"CLOSE"**). A file **joyit_nodemcu_esp32_ex.bin** is now in your downloads folder. It is also available in the output in the /config folder   [folder]() .....   as firmware.bin .....
          
-###4. upload / flash firmware via USB
+### 4. upload / flash firmware via USB
 (requires a upload application)
 flash the file over USB with the ESPHome-flasher, see:
 joyit_nodemcu_esp32_ex.bin in your download folder, but can also be found in the /config/joyit_nodemcu_esp32_ex  folder ....
@@ -96,7 +93,7 @@ Flash   and see messages appear
          
 flasher_output.log 
          
-###5. check logs (via USB, via ESP log over WIFI)
+### 5. check logs (via USB, via ESP log over WIFI)
 Check logs  (board_logs.log)
          
 cannot connect, board is on wifi
