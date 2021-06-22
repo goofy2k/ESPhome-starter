@@ -56,16 +56,17 @@ Next steps:
          
 1. create yaml file with basic functionality
          
-   Open ESPHome dashboard in browser
-   Create new node (+ button) 
-   Follow the steps in the wizzard       
-         Enter node name: joyit_nodemcu_esp32_ex
-         Select device type: Generic ESP32 (WROVER Module)
-         WiFi & Updates: WiFi credentials, OTA password
-         Submit
+Open ESPHome dashboard in browser
+Create new node (+ button) 
+Follow the steps in the wizzard       
+Enter node name: joyit_nodemcu_esp32_ex
+Select device type: Generic ESP32 (WROVER Module)
+WiFi & Updates: WiFi credentials, OTA password
+Submit
          
-After these steps a file **joyit_nodemcu_esp32_ex.yaml** has been created in the /config folder with the following contents:
+After these steps a file **joyit_nodemcu_esp32_ex.yaml** has been created in the /config folder. You can view it's contents here. [here](http://github.com)
          
+code block
 esphome:
   name: joyit_nodemcu_esp32_ex
   platform: ESP32
@@ -91,6 +92,7 @@ api:
 
 ota:
   password: "OTAmacho_99"      
+
          
 The file can be viewed and edited under the Edit button    maybe you have to note the auto-generated password for the AP mode?????     
 The credentials for the fallback hotspot (AP) have been automatically generated.          
