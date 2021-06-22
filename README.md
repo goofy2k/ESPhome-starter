@@ -102,10 +102,22 @@ The firmware must be created without trying to upload it:
          
 3. I have to download the file:  "DOWNLOAD BINARY" and "CLOSE" the window and 
         
+         filename ..... joyit_nodemcu_esp32_ex.bin in your downloads folder 
+         it is also available in the output in the /config folder    .....   as firmware.bin .....
+         
 4. flash the file over USB with the ESPHome-flasher, see:
  joyit_nodemcu_esp32_ex.bin in your download folder, but can also be found in the /config/joyit_nodemcu_esp32_ex  folder ....
          https://esphome.io/guides/faq.html#i-can-t-get-flashing-over-usb-to-work
          https://github.com/esphome/esphome-flasher/releases
+         
+       start ESPHome-Flasher-1.3.0-Windows-x64.exe 
+         choose COM part
+         select file 
+         Flash   and see messages appear
+         
+         flasher_output.log 
+         
+         https://esphome.io/components/wifi.html#manual-ips
          
 ### Remarks:         
 
