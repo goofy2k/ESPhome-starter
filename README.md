@@ -54,7 +54,7 @@ After completion of the basic firmware example, the board will be able to:
 9. compile and upload (OTA)
 10. inspect logs
          
- 1. create yaml file with basic functionality
+#create yaml file with basic functionality
          
 Open ESPHome dashboard in browser
 Create new node (+ button) 
