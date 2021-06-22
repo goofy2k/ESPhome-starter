@@ -36,22 +36,23 @@ ESPHome is capable of doing over-the-air (OTA) firmware updates. It should be ev
 If the root cause of failure is in the firmware, a repaired firmware version must be uploaded via a USB connection. For cases where the previously used WIFI network is not available a fallback solution can be built into the firmware. After a predetermined number of connection attempts, the board can go into access point (AP) mode and serve a webpage where the user can set the credentials for an available wireless network. The board can then reboot and start connecting to the set network. Note, that after a subsequent firmware update the edited WIFI settings are lost and the user must set them again (see TODO 2).  
 
 After completion of the basic firmware example, the board will be able to:
-         - connect to an available WIFI network
-         - receive OTA firmware updates
-         - go to AP mode and accept edited WIFI creedentials in case connection fails
+         
+- connect to an available WIFI network
+- receive OTA firmware updates
+- go to AP mode and accept edited WIFI creedentials in case connection fails
          
 Next steps:         
 
-- create yaml file with basic functionality
-- compile / create firmware.bin
-- download firmware.bin to PC
-- upload firmware via USB (requires a upload application)
-- check logs (via USB, via ESP log over WIFI)
-- disconnect from USB
-- reboot and check logs (ESP log over WIFI)         
-- make some firmware changes in yaml file
-- compile and upload (OTA)
-- inspect logs         
+1. create yaml file with basic functionality         
+2. compile / create firmware.bin
+3. download firmware.bin to PC
+4. upload firmware via USB (requires a upload application)
+5. check logs (via USB, via ESP log over WIFI)
+6. disconnect from USB
+7. reboot and check logs (ESP log over WIFI)         
+8. make some firmware changes in yaml file
+9. compile and upload (OTA)
+10. inspect logs         
          
 
 ## 3. TODO
