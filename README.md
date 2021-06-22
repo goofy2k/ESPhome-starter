@@ -82,14 +82,15 @@ The firmware must be created without trying to upload it: choose **"Compile"** f
          
 ### 3. download firmware.bin to PC
          
-With **"DOWNLOAD BINARY"** the firmware is downloaded to your PC. Close the window (**"CLOSE"**). A file **joyit_nodemcu_esp32_ex.bin** is now in your downloads folder. It is also available in the output in the /config folder   [folder]() .....   as firmware.bin .....
+With **"DOWNLOAD BINARY"** in the ESPHome dashboard, the firmware is downloaded to your PC.  So you don't have to dig into the /config folder to get the file. A file **joyit_nodemcu_esp32_ex.bin** is now in your downloads folder. Close the window (**"CLOSE"**).
          
 ### 4. upload / flash firmware via USB
 (requires a upload application)
-flash the file over USB with the ESPHome-flasher, see:
-joyit_nodemcu_esp32_ex.bin in your download folder, but can also be found in the /config/joyit_nodemcu_esp32_ex  folder ....
+Flashing of the file to the board over USB can be done with the ESPHome-flasher. Read this: 
 https://esphome.io/guides/faq.html#i-can-t-get-flashing-over-usb-to-work
+and get the program over here:         
 https://github.com/esphome/esphome-flasher/releases
+
          
 start ESPHome-Flasher-1.3.0-Windows-x64.exe 
 choose COM part
