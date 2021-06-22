@@ -41,7 +41,7 @@ After completion of the basic firmware example, the board will be able to:
 - receive OTA firmware updates
 - go to AP mode and accept edited WIFI creedentials in case connection fails
          
-Next steps:         
+**Next steps:**         
 
 1. create yaml file with basic functionality         
 2. compile / create firmware.bin
