@@ -1,0 +1,5 @@
+INFO Reading configuration /config/joyit_nodemcu_esp32_ex.yaml...
+INFO Starting log output from joyit_nodemcu_esp32_ex.local using esphome API
+WARNING Error resolving IP address of joyit_nodemcu_esp32_ex.local. Is it connected to WiFi?
+WARNING (If this error persists, please set a static IP address: https://esphome.io/components/wifi.html#manual-ips)
+WARNING Initial connection failed. The ESP might not be connected to WiFi yet (Error resolving IP address: Error resolving address with mDNS: Did not respond. Maybe the device is offline., [Errno -2] Name or service not known). Re-Trying in 1 seconds
