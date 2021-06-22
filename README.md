@@ -42,6 +42,17 @@ After completion of the basic firmware example, the board will be able to:
          
 Next steps:         
 
+- create yaml file with basic functionality
+- compile / create firmware.bin
+- download firmware.bin to PC
+- upload firmware via USB (requires a upload application)
+- check logs (via USB, via ESP log over WIFI)
+- disconnect from USB
+- reboot and check logs (ESP log over WIFI)         
+- make some firmware changes in yaml file
+- compile and upload (OTA)
+- inspect logs         
+         
 
 ## 3. TODO
 
