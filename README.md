@@ -117,6 +117,22 @@ The firmware must be created without trying to upload it:
          
          flasher_output.log 
          
+    5. Check logs  (board_logs.log)
+         
+         cannot connect, board is on wifi
+
+WARNING Error resolving IP address of joyit_nodemcu_esp32_ex.local. Is it connected to WiFi?
+WARNING (If this error persists, please set a static IP address: https://esphome.io/components/wifi.html#manual-ips)
+WARNING Initial connection failed. The ESP might not be connected to WiFi yet (Error resolving IP address: Error resolving address with mDNS: Did not respond. Maybe the device is offline., [Errno -2] Name or service not known). Re-Trying in 1 seconds
+         
+Implement...  >> new yaml
+         compile
+         download binary
+         flash (over usb)
+         
+         ESP_36BF6D
+         
+         
          test fallback hotspot:
          flash with wrong WIFI credentials
          
