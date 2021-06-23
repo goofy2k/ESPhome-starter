@@ -20,7 +20,7 @@ Normally the firmware (a binary file) is obtained writing C++ code or C++ - like
 **Assumption:**  you have an ESPHome server up and running and have access to the dashboard.
 
 
-I have a server running under Docker on my Synology NAS. I can access the ESPHome dashboard in my browser with http://<NAS-IP>:6052, which uses the default port number. The docker container uses an external bound volume, which means that contents of the /config folder of the application is directly accessible for me on the storage volume of the NAS.
+I have a server running under Docker on my Synology NAS. I can access the ESPHome dashboard in my browser with http://NAS-IP:6052, which uses the default port number. The docker container uses an external bound volume, which means that contents of the /config folder of the application is directly accessible for me on the storage volume of the NAS.
 
 In this example I will create the firmware for a very basic application on a SB-NodeMCU-ESP32 board from Joy-It (https://joy-it.net/en/products/SBC-NodeMCU-ESP32).     
 Documentation for this board can be found here: https://joy-it.net/files/files/Produkte/SBC-NodeMCU-ESP32/SBC-NodeMCU-ESP32-Manual-20200320.pdf 
