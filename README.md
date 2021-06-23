@@ -22,6 +22,8 @@ Normally the firmware (a binary file) is obtained writing C++ code or C++ - like
 
 I have a server running under Docker on my Synology NAS. I can access the ESPHome dashboard in my browser with http://NAS-IP:6052, which uses the default port number. The docker container uses an external bound volume, which means that contents of the /config folder of the application is directly accessible for me on the storage volume of the NAS.
 
+NOTE: the Docker container must have the network set to "host". If you use "bridge" there are connection problems with a dynamic IP address and with the "fallback hotspot" (see later).
+
 In this example I will create the firmware for a very basic application on a SB-NodeMCU-ESP32 board from Joy-It (https://joy-it.net/en/products/SBC-NodeMCU-ESP32).     
 Documentation for this board can be found here: https://joy-it.net/files/files/Produkte/SBC-NodeMCU-ESP32/SBC-NodeMCU-ESP32-Manual-20200320.pdf 
 
@@ -102,18 +104,15 @@ flasher_output.log
 ### 5. check logs (via USB, via ESP log over WIFI)
 Check logs  (board_logs.log)
          
-cannot connect, board is on wifi
+cannot connect, board is on wifi root cause:  Docker container network must be set to "host". Not "bridge" (see issues #1 #2 )
 
-WARNING Error resolving IP address of joyit_nodemcu_esp32_ex.local. Is it connected to WiFi?
-WARNING (If this error persists, please set a static IP address: https://esphome.io/components/wifi.html#manual-ips)
-WARNING Initial connection failed. The ESP might not be connected to WiFi yet (Error resolving IP address: Error resolving address with mDNS: Did not respond. Maybe the device is offline., [Errno -2] Name or service not known). Re-Trying in 1 seconds
          
 Implement...  >> new yaml
 compile
 download binary
 flash (over usb)
          
-ESP_36BF6D
+ESP_36BF6D ????
          
          
 test fallback hotspot:
