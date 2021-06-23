@@ -149,7 +149,7 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 ## 3. TODO
 
 1. Put secrets (credentials, host IP's etc) in a separate file and do not publish those. Test Secrets Editor.
-2. Find a solution for keeping WIFI credentials after a firmware update
+2. Find a solution for keeping WIFI credentials after a firmware update.Prevent that the end-user is forced to change a yaml file. He must be able to keep on going after a repair via the fallback hotspot. 
 3. Investigate "Update All"
 4. Investigate "Clean MQTT" 
 5. Investigate "Clean Build"
