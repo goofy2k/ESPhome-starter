@@ -88,7 +88,7 @@ With **"DOWNLOAD BINARY"** in the ESPHome dashboard, the firmware is downloaded 
          
 ### 4. upload / flash firmware via USB
 (requires a upload application)
-Flashing of the file to the board over USB can be done with the ESPHome-flasher. Read this: 
+Flashing of the file to the board over USB can be done with the ESPHome-flasher, see: 
 https://esphome.io/guides/faq.html#i-can-t-get-flashing-over-usb-to-work
 and get the program over here:         
 https://github.com/esphome/esphome-flasher/releases
@@ -103,8 +103,10 @@ flasher_output.log
          
 ### 5. check logs (via USB, via ESP log over WIFI)
 Check logs  (board_logs.log)
-         
-cannot connect, board is on wifi root cause:  Docker container network must be set to "host". Not "bridge" (see issues #1 #2 )
+
+Ran into a problem. See issues #1 #2 .  Solution known. 
+
+---------------
 
          
 Implement...  >> new yaml
