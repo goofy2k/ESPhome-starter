@@ -105,9 +105,19 @@ flasher_output.log
 Check logs  (board_logs.log)
 
 Ran into a problem. See issues #1 #2 .  Solution known. 
+Steps 6 to 10 were succesful.
+Documentation follows...
 
 ---------------
+### 6. disconnect from USB
 
+### 7. reboot and check logs (ESP log over WIFI)
+
+### 8. make some firmware changes in yaml file
+
+### 9. compile and upload (OTA)
+
+### 10. inspect logs
          
 Implement...  >> new yaml
 compile
