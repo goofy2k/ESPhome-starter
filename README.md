@@ -131,11 +131,12 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 
 1. DONE Put secrets (credentials, host IP's etc) in a separate file and do not publish those. Test Secrets Editor. See [ref 3.](https://blog.christophersmart.com/2020/03/31/defining-home-automation-devices-in-yaml-with-esphome-and-home-assistant-no-programming-required/ ) . In the documentation add a dummy_secrets.yaml to show the structure of the secrets.yaml file without showing the secrets.
 2. Describe in the docs how to use secrets.yaml .
-3. Find a solution for keeping WIFI credentials after a firmware update. Prevent that the end-user is forced to change a yaml file. He must be able to keep on going after a repair via the fallback hotspot. Is it possible to extend the web page of the fallback hotspot with an option for choosing static vs dynamic IP?
-4. Investigate "Update All"
-5. Investigate "Clean MQTT" ,  remove MQTT retained messages from the broker
-6. Investigate "Clean Build"
-7. Discuss (high level) integration in Home Assistant         
+3. Find a way to synchronize the contents of your /config folder on the NAS with the Github repository
+4. Find a solution for keeping WIFI credentials after a firmware update. Prevent that the end-user is forced to change a yaml file. He must be able to keep on going after a repair via the fallback hotspot. Is it possible to extend the web page of the fallback hotspot with an option for choosing static vs dynamic IP?
+5. Investigate "Update All"
+6. Investigate "Clean MQTT" ,  remove MQTT retained messages from the broker
+7. Investigate "Clean Build"
+8. Discuss (high level) integration in Home Assistant         
          
 
 ## 4. References / Further reading
