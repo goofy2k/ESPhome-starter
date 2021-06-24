@@ -79,8 +79,10 @@ The firmware must be created without trying to upload it: choose **"Compile"** f
 
          
 ![alt text](https://github.com/goofy2k/ESPhome_codes/blob/main/media/esphome_files.jpg "/config folder")
+**/config folder**
+
 ![alt text](https://github.com/goofy2k/ESPhome_codes/blob/main/media/firmware_location.jpg "location of firmware")         
-         
+**location of firmware within config folder**         
          
 ### 3. download firmware.bin to PC
          
