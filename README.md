@@ -129,7 +129,7 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 
 ## 3. TODO
 
-1. Put secrets (credentials, host IP's etc) in a separate file and do not publish those. Test Secrets Editor. See [ref 3.](https://blog.christophersmart.com/2020/03/31/defining-home-automation-devices-in-yaml-with-esphome-and-home-assistant-no-programming-required/ )
+1. Put secrets (credentials, host IP's etc) in a separate file and do not publish those. Test Secrets Editor. See [ref 3.](https://blog.christophersmart.com/2020/03/31/defining-home-automation-devices-in-yaml-with-esphome-and-home-assistant-no-programming-required/ ) . In the documentation add a dummy_secrets.yaml to show the structure of the secrets.yaml file without showing the secrets.
 2. Find a solution for keeping WIFI credentials after a firmware update. Prevent that the end-user is forced to change a yaml file. He must be able to keep on going after a repair via the fallback hotspot. Is it possible to extend the web page of the fallback hotspot with an option for choosing static vs dynamic IP?
 3. Investigate "Update All"
 4. Investigate "Clean MQTT" 
