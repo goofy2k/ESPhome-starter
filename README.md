@@ -115,6 +115,8 @@ Documentation follows...
 
 ### 8. make some firmware changes in yaml file
 
+Note: before you compile and upload, you can Validate the code. This will detect any errors in the yaml file. One other nice feature is that the output of this action shows the values of all parameters of the component, including those that have not been used in the yaml file and have got a default value. This will give you an overview of the possible settings.
+
 ### 9. compile and upload (OTA)
 
 ### 10. inspect logs
