@@ -82,10 +82,14 @@ The firmware must be created without trying to upload it: choose **"Compile"** f
 
 **/config folder**
 
+
+
 ![alt text](https://github.com/goofy2k/ESPhome_codes/blob/main/media/firmware_location.jpg "location of firmware")
 
 **location of firmware within config folder**         
-         
+
+
+
 ### 3. download firmware.bin to PC
          
 With **"DOWNLOAD BINARY"** in the ESPHome dashboard, the firmware is downloaded to your PC.  So you don't have to dig into the /config folder to get the file. A file **joyit_nodemcu_esp32_ex.bin** is now in your downloads folder. Close the window (**"CLOSE"**).
