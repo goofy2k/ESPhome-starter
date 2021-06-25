@@ -43,7 +43,9 @@ After completion of the basic firmware example, the board will be able to:
 - receive OTA firmware updates
 - go to AP mode and accept edited WIFI creedentials in case connection fails
          
-**Next steps:**         
+**Next steps:**     
+
+Note: as of ESPHome version 1.19.0 the dashboard offers a button "Install".  After pressing this, the user has several options. One of those combines steps 2 and 3 in the next list. The menu options "Compile"  (step2) and Download binary (step3) don't exist anymore. Also the use of an external flasher app (step4) may be replaced by one of the options, but this has not yet been tested by me. 
 
 1. create yaml file with basic functionality         
 2. compile / create firmware.bin
