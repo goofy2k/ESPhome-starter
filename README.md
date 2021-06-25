@@ -1,4 +1,4 @@
-# ESPhome_codes
+# ESPhome starter
 
 ## Contents
 
@@ -141,10 +141,11 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 2. Describe in the docs how to use secrets.yaml .
 3. Find a way to synchronize the contents of your /config folder on the NAS with the Github repository
 4. Find a solution for keeping WIFI credentials after a firmware update. Prevent that the end-user is forced to change a yaml file. He must be able to keep on going after a repair via the fallback hotspot. Is it possible to extend the web page of the fallback hotspot with an option for choosing static vs dynamic IP?
-5. Investigate "Update All"
-6. Investigate "Clean MQTT" ,  remove MQTT retained messages from the broker
-7. Investigate "Clean Build"
-8. Discuss (high level) integration in Home Assistant         
+5. Go into using the Esphome component Improv to provision the WiFi connection of a device via bluetooth (BLE). The device contains a BLE server, which operates headless and accepts WiFi credentials sent by a BLE client. The BLE client is on a BLE capable device. The UI on that device may either run in Javascript on a web browser or in a dedicated app (code (Kotlin) for an Android app available). The easiest way for now seems to be via the web browser. The other route involves creation of an Android app.
+6. Investigate "Update All"
+7. Investigate "Clean MQTT" ,  remove MQTT retained messages from the broker
+8. Investigate "Clean Build"
+9. Discuss (high level) integration in Home Assistant         
          
 
 ## 4. References / Further reading
