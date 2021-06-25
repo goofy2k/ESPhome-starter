@@ -48,13 +48,9 @@ After completion of the basic firmware example, the board will be able to:
 1. create yaml file with basic functionality         
 2. compile / create firmware.bin
 3. download firmware.bin to PC
-4. upload firmware via USB
-5. check logs (via USB, via ESP log over WIFI)
-6. disconnect from USB
-7. reboot and check logs (ESP log over WIFI)         
-8. make some firmware changes in yaml file
-9. compile and upload (OTA)
-10. inspect logs
+4. upload firmware via USB     
+5. make some firmware changes in yaml file
+6. compile and upload (OTA)
          
 ### 1. create yaml file with basic functionality
          
@@ -89,42 +85,36 @@ The firmware must be created without trying to upload it: choose **"Compile"** f
 
 ### 3. download firmware.bin to PC
          
-With **"DOWNLOAD BINARY"** in the ESPHome dashboard, the firmware is downloaded to your PC.  So you don't have to dig into the /config folder to get the file. A file **joyit_nodemcu_esp32_ex.bin** is now in your downloads folder. Close the window (**"CLOSE"**).
+With **"DOWNLOAD BINARY"** in the window that popped up for compilation, the firmware can downloaded to your computer.  So you don't have to dig into the /config folder to get the file. A file **joyit_nodemcu_esp32_ex.bin** is now in your downloads folder. Close the window (**"CLOSE"**).
          
 ### 4. upload / flash firmware via USB
-(requires a upload application)
 Flashing of the file to the board over USB can be done with the ESPHome-flasher, see: 
 https://esphome.io/guides/faq.html#i-can-t-get-flashing-over-usb-to-work
 and get the program over here:         
-https://github.com/esphome/esphome-flasher/releases
+https://github.com/esphome/esphome-flasher/releases .
 
+The steps are:   
+- connect the device to a USB port of your computer
+- start ESPHome-Flasher-1.3.0-Windows-x64.exe 
+- choose the COM port belonging to the USB port
+- select the downloaded firmware file
+- press Flash and see messages appear in the log screen
+
+The log screen contains diagnostic information (such as device type, presence of a calibrated ADC etc. ) that can be especially helpful when something is wrong. Unfortunately the info scrolls over the screen rapidly and I did not yet discover a way to capture this output for better inspection (flasher_output.log ? ).
+
+Be aware that it can take some time for the device to connect to the network and, if applicable, a Home Assistant server. 
+
+More, but other, info can be obtained from the Logs window in the Esphome dashboard. If you want to inspect the order of events from the start, you may want to press the reboot button on the device.
+
+When the device connected to your WiFi network .... and stays connected you can disconnect from USB (see Note 1 !). If everything works fine, you can still see information coming into the Logs screen(board_logs.log), now over the WiFi connection.
          
-start ESPHome-Flasher-1.3.0-Windows-x64.exe 
-choose COM part
-select file 
-Flash   and see messages appear
-         
-flasher_output.log 
-         
-### 5. check logs (via USB, via ESP log over WIFI)
-Check logs  (board_logs.log)
 
-Ran into a problem. See issues #1 #2 .  Solution known. 
-Steps 6 to 10 were succesful.
-Documentation follows...
-
----------------
-### 6. disconnect from USB
-
-### 7. reboot and check logs (ESP log over WIFI)
-
-### 8. make some firmware changes in yaml file
+### 5. make some firmware changes in yaml file
 
 Note: before you compile and upload, you can Validate the code. This will detect any errors in the yaml file. One other nice feature is that the output of this action shows the values of all parameters of the component, including those that have not been used in the yaml file and have got a default value. This will give you an overview of the possible settings.
 
-### 9. compile and upload (OTA)
-
-### 10. inspect logs
+### 6. compile and upload (OTA)
+inspect logs
   
 
 ### Remarks:         
@@ -151,7 +141,9 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 2. https://www.home-assistant.io/
 3. https://blog.christophersmart.com/2020/03/31/defining-home-automation-devices-in-yaml-with-esphome-and-home-assistant-no-programming-required/
 
-## Scrap area  
+**Note 1:** The USB connector on some boards is fragile. Especially when Murphy passes by frequently, it is better to disconnect by removing the USB connector from your computer and leave the cable on your device until the debugging phase is over. Also, if your device does not have a separate battery connector, you have to power it up over the USB connector anyway.
+
+## Scratch area  
 Implement...  >> new yaml
 compile
 download binary
