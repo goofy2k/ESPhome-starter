@@ -153,6 +153,11 @@ https://esphome.io/components/api.html
 and here:
 https://esphome.io/components/mqtt.html .
 
+main tasks:  
+- create yaml file for device. Do not enter api part, but use mqtt part
+- modify mqtt settings in HomeAssistant server setup
+- monitor MQTT messages in Nodered
+
 
 
 
