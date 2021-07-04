@@ -148,7 +148,7 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 
 ## 5. Remote devices
 
-Normally devices are on the same network as the ESPHome server.  When a device is on another network discovery via mDNS does not work (see issue #x and ....).  One workaround involves the use of a Avahi ??? capable router. Another option is to let the device communicate with the ESPHome server via an externally accessible MQTT broker (see: )....
+Normally devices are on the same network as the ESPHome server.  When a device is on another network discovery via mDNS does not work (see issue #x and https://community.home-assistant.io/t/remote-access-on-esphome-devices-different-wifi-network/213639 ).  One workaround involves the use of a Avahi ??? capable router. Another option is to let the device communicate with the ESPHome server via an externally accessible MQTT broker (see: )....
 
 
 ## Scratch area  
