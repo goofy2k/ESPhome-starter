@@ -17,7 +17,7 @@ Normally the firmware (a binary file) is obtained writing C++ code or C++ - like
 
 
 ## 2. Basic example
-**Assumption:**  you have an ESPHome server up and running and have access to the dashboard. This README was started when I was using V1.18.x . For subsequent dashboard versions the menu structure will evolve. I will not try to keep up with these changes here. For a beginning user it may be helpful to start with V1.18.x, get acquainted with the basics an then move to a more recent version.
+**Assumption:**  you have an ESPHome server up and running and have access to the dashboard. This README was started when I was using V1.18.0 . For subsequent dashboard versions the menu structure will evolve. I will not try to keep up with these changes here. For a beginning user it may be helpful to start with V1.18.0, get acquainted with the basics an then move to a more recent version.
 
 
 
