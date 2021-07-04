@@ -135,7 +135,7 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 6. Investigate "Update All"
 7. Investigate "Clean MQTT" ,  remove MQTT retained messages from the broker
 8. Investigate "Clean Build"
-9. Discuss (high level) integration in Home Assistant         
+9. Discuss (high level) integration in Home Assistant        
          
 
 ## 4. References / Further reading
@@ -145,6 +145,11 @@ The source codes (in this case yaml files!) are saved in the /config folder and 
 3. https://blog.christophersmart.com/2020/03/31/defining-home-automation-devices-in-yaml-with-esphome-and-home-assistant-no-programming-required/
 
 **Note 1:** The USB connector on some boards is fragile. Especially when Murphy passes by frequently, it is better to disconnect by removing the USB connector from your computer and leave the cable on your device until the debugging phase is over. Also, if your device does not have a separate battery connector, you have to power it up over the USB connector anyway.
+
+## 5. Remote devices
+
+Normally devices are on the same network as the ESPHome server.  When a device is on another network discovery via mDNS does not work (see issue #x and ....).  One workaround involves the use of a Avahi ??? capable router. Another option is to let the device communicate with the ESPHome server via an externally accessible MQTT broker (see: )....
+
 
 ## Scratch area  
 Implement...  >> new yaml
