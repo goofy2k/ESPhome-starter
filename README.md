@@ -155,7 +155,11 @@ https://esphome.io/components/mqtt.html .
 
 main tasks:  
 - create yaml file for device. Do not enter api part, but use mqtt part
+  - log messages indeed appear in the Logs screen of the ESPHome dashboard.
+    This means that the remote connection of the device with the ESPHome server is OK       
 - modify mqtt settings in HomeAssistant server setup
+  - it is not clear to me what other settings are required for device discovery in HA
+  - see also: https://www.home-assistant.io/docs/mqtt/discovery/  and links therein 
 - monitor MQTT messages in Nodered
 
 
