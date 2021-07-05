@@ -160,7 +160,9 @@ main tasks:
 - modify mqtt settings in HomeAssistant server setup
   - it is not clear to me what other settings are required for device discovery in HA
   - see also: https://www.home-assistant.io/docs/mqtt/discovery/  and links therein 
+  - you probably must create the (JSON?) payload for a MQTT discovery message yourself, a bit like how described for the HTTP Sensor
 - monitor MQTT messages in Nodered
+  - messages from the device (..../status  ..../debug (=logging) are visible) 
 
 
 
