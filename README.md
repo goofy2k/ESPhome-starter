@@ -21,7 +21,7 @@ Normally the firmware (a binary file) is obtained writing C++ code or C++ - like
 
 
 
-I have a server running under Docker on my Synology NAS. I can access the ESPHome dashboard in my browser with http://NAS-IP:6052, which uses the default port number. The docker container uses an external bound volume, which means that contents of the /config folder of the application is directly accessible for me on the storage volume of the NAS.
+I have a server running under Docker on my Synology NAS. I can access the ESPHome dashboard in my browser with http://NAS-IP:6052, which uses the default port number. The credentials for access to the dashboard can be found in the Docker setup. The docker container uses an external bound volume, which means that contents of the /config folder of the application is directly accessible for me on the storage volume of the NAS.
 
 NOTE: the Docker container must have the network set to "host". If you use "bridge" there are connection problems with a dynamic IP address and with the "fallback hotspot" (see later).
 
