@@ -1,11 +1,18 @@
 # ESPhome starter
 
 ## Contents
-
+0. NOTE  
 1. General
 2. Basic example
 3. TODO
 4. References / Further reading
+
+## 0. NOTE  
+
+An instance of ESPhome is running in a Docker container on the DS718+ NAS.  
+Access with: http://192.168.2.206:6052/  
+
+
 
 ## 1. General
 
